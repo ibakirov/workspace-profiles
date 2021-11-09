@@ -1,0 +1,27 @@
+1. Terminal-Icons
+1.1. Install-Module -Name Terminal-Icons -Repository PSGallery
+1.2. Import-Module -Name Terminal-Icons
+
+2. oh-my-posh
+2.2. Install-Module oh-my-posh -Scope CurrentUser
+2.3. Get-PoshThemes
+2.4. Import-Module oh-my-posh
+2.5. h-my-posh --init --shell pwsh --config C:\Users\WRKUSER\Documents\WindowsPowerShell\ibakirov.omp.json | Invoke-Expression
+
+3. PSReadLine
+3.1. Install-Module -Name PowerShellGet -Force
+3.2. Exit
+3.3. Install-Module PSReadLine -AllowPrerelease -Force
+3.4. Import-Module PSReadLine
+
+
+
+URLS:
+
+https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal
+https://ohmyposh.dev/docs/pwsh
+https://github.com/devblackops/Terminal-Icons
+https://github.com/ryanoasis/nerd-fonts
+https://www.programmingfonts.org/#cascadia-code
+https://github.com/JanDeDobbeleer/oh-my-posh
+https://github.com/PowerShell/PSReadLine
